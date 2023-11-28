@@ -10,8 +10,8 @@ public abstract class Examination {
     }
 
     // display
-    public abstract String getBPdataforadmin();
-
-    public abstract String getMRIdataforadmin();
+//    public abstract String getBPdataforadmin();
+//
+//    public abstract String getMRIdataforadmin();
 
 }

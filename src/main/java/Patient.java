@@ -1,6 +1,6 @@
 import Examinations.BPexam;
 import Examinations.MRIexam;
-import Examinations.examination;
+import Examinations.Examination;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -13,7 +13,11 @@ public class Patient {
     private int age;
     private String pictureURL;
 
-    // private ArrayList<Examination> examdata = new ArrayList<Examination>();
+    // Create array lists to store patient examination data
+    private ArrayList<Examination> MRIdata = new ArrayList<Examination>();
+    private ArrayList<Examination> BPdata = new ArrayList<Examination>();
+
+
     public Patient(String name, int age, String pictureURL){
         this.name = name;
         this.age = age;
@@ -21,24 +25,20 @@ public class Patient {
     }
 
     // Add MRI exam information for a patient
-    public void addMRIexam (MRIexam MRIexamdata){
-        MRIexam.add(MRIexamdata);
+    public void addMRIexam (Examination MRIexam){
+        MRIdata.add(MRIexam);
     }
 
     // Add BP exam information for a patient
-    public void addBPexam (BPexam BPexamdata){
-
-        BPexam.add(BPexamdata);
+    public void addBPexam (Examination BPexam){
+        BPdata.add(BPexam);
     }
 
-    // TO DO
+    // get the data for display
 
     public String getexamdataforadmin(){
 
         // Get the exam data for this patient for an admin (admins want to see: patient name and exam details)
-
-        // Surround with <html></html> tags so it can be displayed in a JLabel with <br> to make newlines
-        // Note - if printing to the console instead, use \n instead of <br>
 
         String display=new String("<html>");
         display+="Patient: "+name+"<br>";

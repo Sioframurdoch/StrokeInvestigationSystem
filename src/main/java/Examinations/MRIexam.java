@@ -22,6 +22,5 @@ public class MRIexam extends Examination {
         return "MRI: " + strength +", on " + date.toString();
     }
 
-
     // Doctor display
 }
