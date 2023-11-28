@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class AppointmentsScheduler {
+public class StrokeInvestigation {
     public static void main(String[] args) {
         //Patient John Molecules visits Epping for their Initial appointment and is having the Moderna covid vaccine and the Pfizer flu vaccine
         //Patient Jill Biomedenhall visits Southall and is having just the Pfizer flu vaccine
