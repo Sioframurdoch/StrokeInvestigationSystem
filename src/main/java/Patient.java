@@ -6,6 +6,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+// Ran out of time - in future would have added a display method for the doctor, and if I had infinite time would have added folders
+// for the different users and hidden the different displays codes within them
+
 public class Patient {
 
     // Patients have a name, a picture (given by a URL), an age and details of their MRI and BP exams
