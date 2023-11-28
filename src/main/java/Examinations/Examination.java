@@ -9,7 +9,9 @@ public abstract class Examination {
         this.date = date;
     }
 
-    // display date
-    public abstract String getDisplayText();
+    // display
+    public abstract String getBPdataforadmin();
+
+    public abstract String getMRIdataforadmin();
 
 }

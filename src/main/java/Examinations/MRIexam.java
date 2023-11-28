@@ -13,12 +13,15 @@ public class MRIexam extends Examination {
         super(date);
         this.imageURL = imageURL;
         this.strength = strength;
-
-}
-
+    }
 
 // ADD IN LOGIC TO DISPLAY
-    public String getDisplayText(){
-        return "Appointment on "+date.toString() +" with administrator at "+location+"<br>";
 
+    // Admin display is a string
+    public String getMRIdataforadmin() {
+        return "MRI: " + strength ", on " + date.toString();
+    }
+
+
+    // Doctor display
 }
