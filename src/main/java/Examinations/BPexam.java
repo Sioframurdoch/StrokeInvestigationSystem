@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class BPexam extends Examination {
 
+    // BPexams have a systolic pressure value, diastolic pressure value, date, and "VST" or "ST" indicating measurement length
     private LocalDate date;
     private String measurelength=new String();
     private int systolic;
@@ -14,7 +15,7 @@ public class BPexam extends Examination {
         super(date);
         this.measurelength = measurelength;
         this.systolic = systolic;
-        thi.diastolic = diastolic;
+        this.diastolic = diastolic;
 
 }
 

@@ -1,13 +1,15 @@
 package Examinations;
 import java.time.LocalDate;
 
-public class Examination {
+public abstract class Examination {
 
-    // Date common to all appointments
+    // Both exams have date
     protected LocalDate date;
-    public Appointment(LocalDate date){
+    public Examination(LocalDate date){
         this.date = date;
     }
+
+    // display date
     public abstract String getDisplayText();
 
 }
