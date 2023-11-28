@@ -11,8 +11,8 @@ public class StrokeInvestigation {
 
         // Patient 1: Daphne Von Oram
         Patient patient1 = new Patient("Daphne Von Oram", 62,"http://martinh.netfirms.com/BIOE60010/DaphneVonOram.jpg" );
-        patient1.addMRIexam(new MRIexam(LocalDate ld= LocalDate.of(2023,9,14),"https://martinh.netfirms.com/BIOE60010/mri1.jpg", 2));
-        patient1.addBPexam(new BPexam(LocalDate ld1 = LocalDate.of(2023,9,15), "ST", 130, 70));
+        patient1.addMRIexam(new MRIexam(LocalDate.of(2023,9,14),"https://martinh.netfirms.com/BIOE60010/mri1.jpg", 2));
+        patient1.addBPexam(new BPexam(LocalDate.of(2023,9,15), "ST", 130, 70));
 
 
         // Create a Window to display the output based on the User
