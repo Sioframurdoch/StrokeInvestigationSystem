@@ -23,6 +23,6 @@ public class BPexam extends Examination {
 
     // String return display
     public String getBPdataforadmin() {
-        return "Blood Pressure: " + systolic " over" + diastolic "from" + measurelength "exam" on + date.toString();
+        return "Blood Pressure: " + systolic +" over" + diastolic +"from" + measurelength+ "exam on" + date.toString();
     }
 }

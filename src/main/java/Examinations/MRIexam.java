@@ -19,7 +19,7 @@ public class MRIexam extends Examination {
 
     // Admin display is a string
     public String getMRIdataforadmin() {
-        return "MRI: " + strength ", on " + date.toString();
+        return "MRI: " + strength +", on " + date.toString();
     }
 
 
