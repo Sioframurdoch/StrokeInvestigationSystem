@@ -1,0 +1,9 @@
+Overall: The code is generally good and follows some OOP principles, but it is incomplete and the UI didn't display images correctly. There's a bug that prevents admin output being displayed, even though the code is there.
+GUI: The information for one patient displays ok, but there are no images displayed.
+Output: Not displayed even though the code is there to generate it.
+Encapsulation: Good use of private fields and getters, and initialization in constructors.
+Inheritance: Good use of inheritance in BP and MRI by having a superclass Examination.
+Abstraction: There is no abtraction by polymorphism, but there is abstraction by encapsulation. Loading Images could be abstracted into its own class to avoid code duplication.
+Polymorphism: There is no polymorphism, but there could be if there was a common abstract 'getDataforadmin' method in Examination to show the admnistration information on the console, that would be overridden in MRI and BP, rather than having separate getBPdataforadmin and getMRIdataforadmin. Viewing MRI and BP objects as Examination objects and calling its getDataforadmin method would then call the specific BP or MRI method without having to know which specific object it was. This would make the code extensible for further types of Examination.
+Exception: Images are not loaded, so no exception are thrown
+Packages: Good use of two packages
